@@ -3,6 +3,7 @@
 ## Overview
 
 TalktoLearn is a language learning platform that aims to bridge the gap between theoretical language knowledge and practical application. It provides users with a dynamic space to actively practice their language skills through a chatbot, translator, and curated book suggestions.
+This project is made for MS Future Ready Talent
 
 ## Core Features
 
