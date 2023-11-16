@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="book.css">
+    
+    <title>Books</title>
+</head>
+<body>
+    <header>
+        <h1 class ="Org-name">TalktoLearn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="language-link">Home</a></li>
+                <li><a href="about.html" class="language-link">About</a></li>
+                <li><a href="contact.html" class="language-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="languageSelector">
+            <label for="languages">Select Language:</label>
+            <select id="languages" onchange="changeLanguage()">
+                <option value="none">Select a language</option>
+                <option value="en" >English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
+
+        <div id="booksList">
+            <h2 class="heading">Available Books</h2>
+            <ul id="books">
+                <!-- Book items will be dynamically added here based on the selected language -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Made for MS Future Ready Talent. <br>All rights reserved.</p>
+    </footer>
+
+    <script src="book.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
