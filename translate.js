@@ -1,4 +1,4 @@
-const apiKey = process.env.API_KEY || ''; // Fetch the API key from the environment variable
+const apiKey = process.env.TRANSLATOR_API_KEY || ''; // Fetch the API key from the environment variable
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 async function translateMessage() {
