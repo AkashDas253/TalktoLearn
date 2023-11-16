@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="practice.css">
+    <title>Practice</title>
+</head>
+<body>
+    <header>
+        <h1 class="Org-name">TalktoLearn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="language-link">Home</a></li>
+                <li><a href="about.html" class="language-link">About</a></li>
+                <li><a href="contact.html" class="language-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <h2 class="heading">Chat to Practice</h2>
+        <div id="chat-container">
+            <label for="language-selector">Select Language:</label>
+            <select id="language-selector" onchange="changeBot()">
+                <option value="none">Select Language</option>
+                <option value="en">English</option>
+                <option value="fr">French (Not Supported Yet - Displaying in English)</option>
+                <option value="es">Spanish (Not Supported Yet - Not Displaying in English)</option>
+                <!-- Add more language options as needed -->
+            </select>
+
+            <iframe id="chatFrame" src='https://webchat.botframework.com/embed/BOTNAME_EN?s=YOUR_API_KEY_EN'></iframe>
+        </div>
+    </main>  
+    <footer>
+        <p>&copy; 2023 Made for MS Future Ready Talent. <br>All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        const botConfigurations = {
+            'en': { botName: 'ChatandPractice-bot', apiKey: 'M3lm-9bZxUk.7P3we3LB2c8THww3H5AFe3zK3N1nIjrMqeFIIhnlNAk' },
+            'fr': { botName: 'ChatandPractice-bot', apiKey: 'M3lm-9bZxUk.7P3we3LB2c8THww3H5AFe3zK3N1nIjrMqeFIIhnlNAk' },
+            'es': { botName: 'BOTNAME_ES', apiKey: 'YOUR_API_KEY_ES' },
+            // Add more languages as needed
+        };
+
+        function changeBot() {
+            var languageSelector = document.getElementById("language-selector");
+            var chatFrame = document.getElementById("chatFrame");
+            var selectedLanguage = languageSelector.value;
+
+            if (selectedLanguage !== 'none') {
+                // Update the bot name and API key based on the selected language
+                var botConfig = botConfigurations[selectedLanguage];
+                
+                if (botConfig) {
+                    chatFrame.src = `https://webchat.botframework.com/embed/${botConfig.botName}?s=${botConfig.apiKey}`;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
