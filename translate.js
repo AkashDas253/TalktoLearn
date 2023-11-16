@@ -1,4 +1,4 @@
-const apiKey = '';
+const apiKey = '${{secrets.TRANSLATOR_API_KEY}}';
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 async function translateMessage() {
