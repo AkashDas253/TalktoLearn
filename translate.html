@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="translate.css">
+    <title>TalktoLearn</title>
+</head>
+<body>
+    <header>
+        <h1 class ="Org-name">TalktoLearn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="heading">Translator</h2>
+
+        <div id="translate-container">
+            <div id="translate-messages"></div>
+
+            <div id="user-input">
+                <button id="translate-btn" onclick="translateMessage()">Translate</button>
+                <textarea id="user-message" placeholder="Type your message..."></textarea> <!--type="text" id="user-message" placeholder="Type your message...">-->
+                <label for="to-language">To </label>
+                <select id="to-language">
+                    <option value="fr">French</option>
+                    <option value="es">Spanish</option>
+                    <option value="en">English</option>
+                    <!-- Add more language options as needed -->
+                </select>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Made for MS Future Ready Talent. All rights reserved.</p>
+    </footer>
+
+    <script src="translate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
