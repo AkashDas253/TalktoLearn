@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <title>TalktoLearn</title>
+    
+    <link rel="stylesheet" href="book.css">
+    
+    <title>Books</title>
 </head>
 <body>
     <header>
@@ -18,14 +20,24 @@
             </ul>
         </nav>
     </header>
-    
 
     <main>
+        <div id="languageSelector">
+            <label for="languages">Select Language:</label>
+            <select id="languages" onchange="changeLanguage()">
+                <option value="none">Select a language</option>
+                <option value="en" >English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
 
-        <div>
-            <h2>About Us</h2>
-            <p>This project is done for MS FRT<br></p>
-            <p>The primary goal of this project is to support individuals in their language learning journey. It provides a platform for users to engage in conversations, practice constructing sentences with the assistance of a translator, and explore new books in the target language. The aim is to offer a holistic language learning experience that encompasses speaking, writing, and reading skills, making the learning process more engaging and effective.</p>
+        <div id="booksList">
+            <h2 class="heading">Available Books</h2>
+            <ul id="books">
+                <!-- Book items will be dynamically added here based on the selected language -->
+            </ul>
         </div>
     </main>
 
@@ -33,7 +45,8 @@
         <p>&copy; 2023 Made for MS Future Ready Talent. <br>All rights reserved.</p>
     </footer>
 
-    <!-- Link the external JavaScript file -->
+    <script src="book.js"></script>
     <script src="script.js"></script>
+   
 </body>
 </html>
