@@ -29,15 +29,4 @@ This project is made for MS Future Ready Talent
 - **Azure Bot Framework:** Utilizes Azure Bot Framework for implementing the chatbot functionality.
 ## Screenshot
 ### Deployment
-![Screenshot_20231125-083534_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/a536f163-9c5e-43e5-9e88-5ece293d7b1f)
-
-
-![Image 1](https://github.com/AkashDas253/TalktoLearn/assets/150669625/c17c9dda-8ae9-44b9-b096-dd96bf5d4462) ![Image 2](https://github.com/AkashDas253/TalktoLearn/assets/150669625/08e962de-41b3-4228-9f56-af2e7bfd53dc)
-
-![Image 3](https://github.com/AkashDas253/TalktoLearn/assets/150669625/25fb1bdc-b570-411c-9621-273303262630) ![Image 4](https://github.com/AkashDas253/TalktoLearn/assets/150669625/b04f6bfa-5383-47c9-9abc-e7b32f479b40)
-
-![Image 5](https://github.com/AkashDas253/TalktoLearn/assets/150669625/021a35a7-1811-4925-b285-3e99da934326) ![Image 6](https://github.com/AkashDas253/TalktoLearn/assets/150669625/aceef5bf-143f-4e37-86b2-45dd8b4dd830)
-
-![Image 7](https://github.com/AkashDas253/TalktoLearn/assets/150669625/fd22780b-31ae-46d8-9050-34f828193e5e)
-
 
