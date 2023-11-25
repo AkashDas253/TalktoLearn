@@ -27,3 +27,5 @@ This project is made for MS Future Ready Talent
 - **HTML, CSS, and JavaScript:** The project's front-end is built using standard web technologies for a user-friendly interface.
 - **Azure Translator API:** Integrates Azure's Translator API for language translation features.
 - **Azure Bot Framework:** Utilizes Azure Bot Framework for implementing the chatbot functionality.
+## Screenshot
+
