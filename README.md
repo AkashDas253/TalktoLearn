@@ -41,11 +41,11 @@ This project is made for MS Future Ready Talent
 ![Screenshot_20231125-083803_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/135f9b8f-2719-41a6-af60-15da63f6afff)
 ![Screenshot_20231125-083721_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/7a1ef06d-5081-4a03-86e2-2e28a96b4f60)
 
-### User View
+### **User View**
 
 ![Screenshot_20231125-083145_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/8007e182-3ba3-46bd-9ed7-5816ec55e9c9)
 ![Screenshot_20231125-080643_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/d96e005b-782a-4250-b010-59e45286659a)
-
+![Screenshot_20231125-081135_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/7ff220cd-6ae1-464a-a0a5-0141459b2bfd)
 ![Screenshot_20231125-081208_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/face7048-b1ac-4b7e-b5e8-9d10134e365c)
 ![Screenshot_20231125-083150_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/b8cadd4d-2a67-4f12-b59a-5ab2a73857f4)
 ![Screenshot_20231125-091356_Chrome](https://github.com/AkashDas253/TalktoLearn/assets/150669625/92a67c9b-9b38-4f35-892f-0fb780175beb)
