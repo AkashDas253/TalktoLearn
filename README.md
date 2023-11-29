@@ -11,6 +11,7 @@ This project is made for MS Future Ready Talent
 
 - Engage in simulated conversations to enhance vocabulary, sentence construction, and overall language proficiency.
 - Seamless and intuitive user interface for easy interaction.
+- At this moment, only available in English due to budgetary constraints.
 
 ### 2. Translator
 
