@@ -7,7 +7,7 @@ This project is made for MS Future Ready Talent
 
 ## Core Features
 
-### 1. Chatbot
+### 1. Chatbot(For Practice)
 
 - Engage in simulated conversations to enhance vocabulary, sentence construction, and overall language proficiency.
 - Seamless and intuitive user interface for easy interaction.
