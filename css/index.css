@@ -1,0 +1,16 @@
+
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #000; /* Add a solid black border */
+    padding: 1% 15%; /* Add padding for better visual appearance */
+    display: block; /* Ensure the border surrounds the content */
+    text-align: center;
+    background-color: linen;
+    margin: 20px; /* Increase margin for more spacing between menu items */
+}
+
+.menu a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    cursor: pointer;
+}
