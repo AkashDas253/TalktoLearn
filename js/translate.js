@@ -1,4 +1,4 @@
-const apiKey =config.translate_key // '7061611e31bb4a6896780adbb061d3d2';
+const apiKey ='d86909b32fe14748a021eaa21284a90d';
 const endpoint = 'https://api.cognitive.microsofttranslator.com';
 
 async function translateMessage() {
